@@ -1,0 +1,17 @@
+@import './base.css';
+
+html, body {
+  height: 100%; /* 使 html 和 body 的高度为 100% */
+  width: 100%; /* 使 html 和 body 的高度为 100% */
+  margin: 0; /* 去掉默认的 margin */
+  padding: 0; /* 去掉默认的 padding */
+  display: flex; /* 使用 flexbox 布局 */
+  align-items: flex-start; /* 左对齐 */
+}
+
+#app {
+  width: 100%; /* 使应用占据整个宽度 */
+  height: 100%; /* 使应用占据整个高度 */
+  display: flex; /* 使用 flexbox 布局 */
+  flex-direction: column; /* 垂直排列子元素 */
+}
